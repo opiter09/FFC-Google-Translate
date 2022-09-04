@@ -1,0 +1,38 @@
+Step 1: Download all the tools listed in the Readme. Also download this repo if you haven't by pressing the
+green "Code: button and then "Download Zip."
+
+Step 2: *Acquire* a ROM file of Fossil Fighters: Champions. Open it with Crystal Tile 2, then do Tools ->
+NDS File System -> File -> Split Rom to split the ROM apart.
+
+Step 3: That should result in a folder named KASEKI2 somewhere. Move or copy that folder inside some other
+folder--let's call it Container--and rename it to "KASEKI2 - Copy."
+
+Step 4: Go into KASEKI2 - Copy and move the "text" and "msg" folders out into Container. Then make new,
+empty "text" and "msg" folders inside KASEKI2 - Copy.
+
+Step 5: For some reason, Crystal Tile 2 and jNDSTool expect pretty different folder structures. To remedy
+this, make a folder in KASEKI2 - Copy named "data," then place all other folders there except FSI.CT into it.
+
+Step 6: Rename FSI.CT to "overlay," and go into it and put every file that does not begin with "overlay" into
+KASEKI2 - Copy itself. Finally, rename the just-moved file "ndsheader.bin" to "header.bin."
+
+Step 7: Move everything from this repo into Container, along with the jar file you got from jNDSTool, and
+the exe you got from Fossil Fighters Tool.
+
+Step 8: If jNDSTool happens to have gotten a release beyond 1.0.1 by the time you read this, you are going to
+have to rename the jar file to "jNdstool-1.0.1.jar"; you will also have to rename the exe to "fftool.exe" if
+by some chance that name has been changed.
+
+Step 9: Drag and drop the "text" folder in Container onto fftool.exe. When that finishes running, do the same
+for "msg."
+
+Epilogue: At the end of all of this, you should have a folder named Container (or something else), in
+which are the folders "KASEKI2 - Copy", "msg", and "text", and the files "fftool.exe" and
+"jNdstool-1.0.1.jar", along with everything you donwloaded from this repo. 
+
+
+Actually running it: msg.bat will "translate" all the message files. If if runs out of memory or you stop
+it so your computer doesn't catch on fire, it will make use of leftOff.txt and pick up where it left off.
+You can then translate vivosaur names, move names, etc. using text.bat. It again makes use of the file
+leftOffT.txt. Once all that is done, simply run jar.bat to compile everything together into a ROM! Then you
+can use your favorite patching utility to create a patch that the whole world can enjoy.
