@@ -10,5 +10,5 @@ Tools needed:
 - The appropriate Argos packages (run packages.py to get them)
 - The most recent version of NumPy (make sure to run ```pip install --upgrade NumPy``` to be safe)
 
-A full write-up of the process will be provided when the translation is finished; you can probably figure it out from the code. Do be warned that creating this 
-translation is **extremely** slow (well, at least on my mid-tier laptop).
+To see how to set all this up, you can read Setup.txt. Be warned that this probably takes an actual server or something to run, I definitely would not advise using a
+personal laptop or desktop computer after my experiences.
