@@ -8,4 +8,4 @@ Tools needed:
 - Argos Translation (https://github.com/argosopentech/argos-translate)
 
 A full write-up of the process will be provided when the translation is finished; you can probably figure it out from the code. Do be warned that creating this 
-translation is **extremely** slow, well at least on my mid-tier laptop.
+translation is **extremely** slow (well, at least on my mid-tier laptop).
