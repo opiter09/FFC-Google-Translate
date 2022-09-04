@@ -1,5 +1,6 @@
 Step 1: Download all the tools listed in the Readme. Also download this repo if you haven't by pressing the
-green "Code: button and then "Download Zip."
+green "Code: button and then "Download Zip." As part of this, run packages.py from the Command Line in order
+to get the needed Argos packages.
 
 Step 2: *Acquire* a ROM file of Fossil Fighters: Champions. Open it with Crystal Tile 2, then do Tools ->
 NDS File System -> File -> Split Rom to split the ROM apart.
