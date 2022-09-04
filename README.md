@@ -1,6 +1,7 @@
 # FFC-Google-Translate
 Inspired by Kin_Tamashii's "Book of Mario" series of videos, the code here hopes to similarly nonsensically translate "Fossil Fighters: Champions" for the Nintendo
-DS. So far, there is only code to run through NPC dialogue, but move names and whatnot will be addressed at a later date.
+DS. All text will be affected, even debug text; however do note that the code regarding the "text" folder has not been tested at all (so let me know if there are
+issues!).
 
 Tools needed:
 - Python and Java
